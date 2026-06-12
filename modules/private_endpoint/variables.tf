@@ -1,0 +1,12 @@
+variable "rg_name" {}
+variable "location" {}
+variable "endpoint_subnet_id" {}
+variable "frontend_app_id" {}
+variable "backend_app_id" {}
+variable "cosmos_account_id" {}
+variable "app_service_dns_zone_id" {}
+variable "cosmos_dns_zone_id" {}
+variable "frontend_pe_name" {}
+variable "backend_pe_name" {}
+variable "cosmos_pe_name" {}
+variable "tags" {}

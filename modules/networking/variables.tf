@@ -1,0 +1,17 @@
+variable "rg_name" {}
+variable "location" {}
+variable "gateway_vnet_name" {}
+variable "gateway_vnet_cidr" {}
+variable "agw_subnet_name" {}
+variable "agw_subnet_cidr" {}
+variable "app_vnet_name" {}
+variable "app_vnet_cidr" {}
+variable "endpoint_subnet_name" {}
+variable "endpoint_subnet_cidr" {}
+variable "integration_subnet_name" {}
+variable "integration_subnet_cidr" {}
+variable "ai_vm_subnet_name" {}
+variable "ai_vm_subnet_cidr" {}
+variable "bastion_subnet_name" {}
+variable "bastion_subnet_cidr" {}
+variable "tags" {}

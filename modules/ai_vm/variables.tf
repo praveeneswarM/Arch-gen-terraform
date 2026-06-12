@@ -1,0 +1,10 @@
+variable "rg_name" {}
+variable "location" {}
+variable "vm_name" {}
+variable "nic_name" {}
+variable "nsg_name" {}
+variable "subnet_id" {}
+variable "admin_username" {}
+variable "admin_password" {}
+variable "private_ip_address" {}
+variable "tags" {}
